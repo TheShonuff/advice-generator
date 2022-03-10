@@ -93,6 +93,8 @@ body {
 }
 
 .attribution {
+    font-size: 11px;
+    text-align: center;
     position: relative;
     margin-top: 5%;
 }
