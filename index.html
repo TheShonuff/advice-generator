@@ -13,14 +13,14 @@
   <title>Frontend Mentor | Advice generator app</title>
 </head>
 
-<body>
+<body onload="javascript:fetchAdvice()">
   <main>
 
     <div id="adviceContainer">
       <div class="left"></div>
       <div class="advicebox">
         <div class="adviceID">
-          <h2>ADVICE #<span class="idnum"></span> </h2>
+          <h2></h2>
         </div>
         
         <div class="advice">
@@ -31,7 +31,7 @@
         </div>
         <div class="buttonContainer">
           <img src="images/icon-dice.svg"
-          <button class="button" onclick="renderAdvice()"></button>
+          <button class="button" onclick="fetchAdvice()"></button>
         </div>
       </div>
       <div class="right"></div>
@@ -44,5 +44,6 @@
   </div>
 </body>
 <script src="somejava.js"></script>
+
 
 </html>
