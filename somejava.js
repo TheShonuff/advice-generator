@@ -13,12 +13,12 @@ async function fetchAdvice() {
         console.log(data.slip.advice);
         console.log(data.slip.id);
 
-        adviceID.innerText = `ADVICE #` + data['slip']['id'];
-        advice.innerText = `"` + data['slip']['advice'] +`"`;
-
+     //   adviceID.innerText = `ADVICE #` + data['slip']['id'];
+        adviceID.innerHTML = `<p> ADVICE #: ${data.slip.id}</p>`
+    //    advice.innerText = `"` + data['slip']['advice'] +`"`;
+        advice.innerHTML = `<p>"${data.slip.advice}" </p>`
     }
 }
-
 
 
 
