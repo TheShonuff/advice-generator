@@ -22,20 +22,3 @@ async function fetchAdvice() {
 
 
 
-// async function renderAdvice() {
-//     let advice = await fetchAdvice();
-    
-//     let advicehtml = '';
-//     let adviceIDhtml = '';
-//     let advicesegment =   `"${advice.slip.advice}."` ;
-//     let adviceIDsegment = `${advice.slip.id}`;
-
-//     advicehtml += advicesegment;
-//     adviceIDhtml += adviceIDsegment; 
-
-//     let container1 = document.querySelector('.advice');
-//     container1.innerHTML = advicehtml;
-
-//     let container2 = document.querySelector('.idnum');
-//     container2.innerHTML = adviceIDhtml;
-// }
