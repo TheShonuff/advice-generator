@@ -34,27 +34,24 @@ body {
     color: #cee2e8;
     align-self: center;
     text-align: center;
-
     margin-left: 10%;
     margin-right:10%;
     
 } 
 
-.advice p {
+.advice blockquote {
     color: #cee2e8;
     font-size: 28px;
-    align-self: center;
-    text-align: center;
     font-family: 'Manrope',sans-serif; 
     font-weight: 800;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 
 .adviceID p {
     color:#53ffab;
     position: static;
-    margin-top: 30%;
+    margin-top: 24%;
     font-size: 14px;
     letter-spacing: .3rem;
     font-weight: 800;
@@ -103,6 +100,7 @@ body {
 .buttonContainer:hover {
     background-color: #53ffab;
     box-shadow: 2px 2px 30px rgba(83,255,171, .8);
+    cursor: pointer;
 }
 
 .attribution {

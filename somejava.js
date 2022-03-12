@@ -14,9 +14,9 @@ async function fetchAdvice() {
         console.log(data.slip.id);
 
 
-        adviceID.innerHTML = `<p> ADVICE #${data.slip.id}</p>`
+        adviceID.innerHTML = `<p>ADVICE #${data.slip.id}</p>`
 
-        advice.innerHTML = `<p>"${data.slip.advice}" </p>`
+        advice.innerHTML = `<blockquote>"${data.slip.advice}"</blockquote>`
     }
 }
 
