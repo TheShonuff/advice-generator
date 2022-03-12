@@ -46,25 +46,17 @@ body {
     align-self: center;
     text-align: center;
     font-family: 'Manrope',sans-serif; 
-    font-weight: bolder;
+    font-weight: 800;
     margin-top: 2%;
 }
 
-/* .adviceID {
-    color:#53ffab;
-    margin-top: 6%;
-    font-size: 12px;
-    letter-spacing: .2rem;
-    font-weight: 800;
-    border: 1px;
-    font-family: 'Manrope',sans-serif; 
-} */
 
 .adviceID p {
     color:#53ffab;
+    position: static;
     margin-top: 30%;
     font-size: 14px;
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
     font-weight: 800;
     border: 1px;
     font-family: 'Manrope',sans-serif; 
@@ -77,19 +69,18 @@ body {
 
 .divider {
     position: absolute;
-    margin-top: 250px;
-   
+    margin-top: 250px;   
 }
 
 .button{
     display:hidden;
-    height: 50px;
-    width:50px;
+    height: 70px;
+    width:70px;
 }
 
 .buttonContainer {
     position: absolute;
-    margin-top: 310px;
+    margin-top: 300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -97,8 +88,8 @@ body {
     align-content: center;
     border-radius:50%;
     background-color: #53ffab;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     
 }
 
@@ -111,7 +102,7 @@ body {
 
 .buttonContainer:hover {
     background-color: #53ffab;
-    box-shadow: 2px 2px 20px rgba(83,255,171, .8);
+    box-shadow: 2px 2px 30px rgba(83,255,171, .8);
 }
 
 .attribution {
