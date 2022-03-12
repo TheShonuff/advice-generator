@@ -37,15 +37,8 @@ Your users should be able to:
 ### Screenshot
 
 
-![](./images/screenshot.png)
+![](./images/Advice-Generator-Screen.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
@@ -54,7 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
-Still developing a "process." However I blcoked most of what I need in html and css first. Then I added the javascript in slowly building the fetch request. I followed the request with a lot of console.log() to see how the data was being handled.
+Still developing a "process." However I blocked most of what I need in html and css first. Then I added the javascript in slowly building the fetch request. I followed the request with a lot of console.log() to see how the data was being handled.
 
 ### Built with
 
@@ -69,13 +62,12 @@ Still developing a "process." However I blcoked most of what I need in html and 
 
 ### What I learned
 
-First code attempt with Javascript. I'm sure I could write my renderAdvice() function cleaner. On my first attempt I was able to fetch the JSON from the URL and extract the string from the object.
+I learned how to fetch a JSON object from a url and not save a cache so I can load in new requests. Still trying to find my way around CSS and media quieries without constantly breaking my layout. 
 
-The next step is to be able to load a quote when the website loads and then fetch a new quote when the button registers a click event.
 
 ### Continued development
 
-I'd like to be able to write this code with some more elegance and less redundancy. I'm will to bet with some practice I could cut the renderAdvice function in half.
+Need to continue practicing my CSS fu and Javascript skills. I might have had an easier time if I learn a js framework but I've decided to master vanilla JS first.
 
 
 
