@@ -36,7 +36,7 @@
         width: 525px;
         background-color: #313a49;
     }
-     
+
     .advice {
         color: #cee2e8;
         align-self: center;
@@ -121,6 +121,6 @@
     
     .attribution a {
         color: hsl(228, 45%, 44%);
-      }
+    }
 
 }
