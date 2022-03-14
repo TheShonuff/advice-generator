@@ -32,37 +32,29 @@ body {
   color: #cee2e8;
   align-self: center;
   text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .advice blockquote {
   color: #cee2e8;
-  font-size: 28px;
+  font-size: 27px;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 h1 {
   color: #53ffab;
   position: static;
-  margin-top: 24%;
   font-size: 14px;
   letter-spacing: 0.3rem;
   font-weight: 800;
   border: 1px;
   font-family: "Manrope", sans-serif;
 }
-.adviceID p {
-  color: #53ffab;
-  position: static;
-  margin-top: 24%;
-  font-size: 14px;
-  letter-spacing: 0.3rem;
-  font-weight: 800;
-  border: 1px;
-  font-family: "Manrope", sans-serif;
+.adviceID {
+  margin-top: 6%;
 }
 
 .right {
